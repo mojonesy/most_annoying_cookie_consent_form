@@ -45,11 +45,18 @@ main {
     margin: 0 auto;
 }
 
-/* Modal */
+/* modal */
 .modal {
-    width: 300px;
-    height: 350px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 325px;
+    height: 400px;
     background-color: #222;
+    opacity: 0.95;
     color: #e7f7f3;
     border-radius: 10px;
     box-shadow: 0 0 5px 2px #b3b3b3;
@@ -58,4 +65,25 @@ main {
 .modal-body {
     width: 275px;
     margin: 0 auto;
+}
+
+/* modal button */
+.close-modal-btn-container {
+    margin: 7px;
+    text-align: right;
+}
+
+.close-modal-btn {
+    color: whitesmoke;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+.close-modal-btn:hover {
+    color: #fc6060;
+    cursor: pointer;
+}
+.close-modal-btn:active {
+    color: #9d4141;
 }
