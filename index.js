@@ -2,7 +2,7 @@
 const modal = document.getElementById("modal");
 
 setTimeout(() => {
-    modal.style.display = "block";
+    modal.style.display = "inline";
 }, 3500);
 
 
