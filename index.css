@@ -104,13 +104,17 @@ input {
     margin-bottom: 10px;
 }
 
-button {
+.modal-choice-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.modal-btn {
     font-size: 20px;
-    padding: 8px;
+    padding: 10px 24px;
+    margin: 0 4px;
     border: none;
     border-radius: 5px;
-}
-button:hover { 
-    color: #e7f7f3;
-    background-color: #28b3ee;
+    cursor: pointer;
 }
