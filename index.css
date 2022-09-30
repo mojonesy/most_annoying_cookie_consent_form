@@ -55,7 +55,7 @@ main {
     right: 0;
     margin: auto;
     width: 325px;
-    height: 400px;
+    height: 500px;
     background-color: #222;
     opacity: 0.95;
     color: #e7f7f3;
@@ -87,4 +87,14 @@ main {
 }
 .close-modal-btn:active {
     color: #9d4141;
+}
+
+/* form */
+input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px;
+    margin-bottom: 10px;
 }
