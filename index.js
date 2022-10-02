@@ -21,6 +21,11 @@ consentForm.addEventListener("submit", (e) => {
     e.preventDefault();
     console.log("form submitted");
 
+    const consentFormData = new FormData(consentForm);
+    const fullName = consentFormData.get("fullName");
+    const email = consentFormData.get("email");
+    console.log(fullName, email);
+
     modalText.innerHTML = 
     `
         <div class="modal-inner-loading">
@@ -38,7 +43,7 @@ consentForm.addEventListener("submit", (e) => {
     setTimeout(() => {
         document.getElementById("modal-body").innerHTML =
             `
-                <h2>Hey thanks!</h2>
+                <h2>Hey thanks <span class="modal-display-name">${fullName}</span>!</h2>
                 <p>We just sold the rights to your eternal soul :D</p>
                 <div class="idiot-gif">
                     <img src="images/pirate.gif">
