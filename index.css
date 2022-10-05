@@ -117,7 +117,7 @@ input {
     margin-top: 10px;
 }
 
-.reverse { flex-direction: row-reverse }
+.modal-choice-btns-reverse { flex-direction: row-reverse }
 
 .modal-btn {
     font-size: 20px;

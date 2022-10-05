@@ -19,7 +19,7 @@ closeModalButton.addEventListener("click", () => {
 
 /* modal decline btn */
 declineButton.addEventListener("mouseenter", () => {
-    modalChoiceButtons.classList.toggle("reverse");
+    modalChoiceButtons.classList.toggle("modal-choice-btns-reverse");
 });
 
 
