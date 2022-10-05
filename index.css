@@ -117,6 +117,8 @@ input {
     margin-top: 10px;
 }
 
+.reverse { flex-direction: row-reverse }
+
 .modal-btn {
     font-size: 20px;
     padding: 10px 24px;
