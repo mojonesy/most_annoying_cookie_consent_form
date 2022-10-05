@@ -2,6 +2,8 @@ const modal = document.getElementById("modal");
 const modalText = document.getElementById("modal-text");
 const closeModalButton = document.getElementById("close-modal-btn");
 const consentForm = document.getElementById("consent-form");
+const declineButton = document.getElementById("decline-btn");
+const modalChoiceButtons = document.getElementById("modal-choice-btns");
 
 
 /* modal popup */
@@ -13,6 +15,11 @@ setTimeout(() => {
 /* modal close btn */
 closeModalButton.addEventListener("click", () => {
     modal.style.display = "none";
+});
+
+/* modal decline btn */
+declineButton.addEventListener("mouseenter", () => {
+    modalChoiceButtons.classList.toggle("reverse");
 });
 
 
