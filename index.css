@@ -68,6 +68,8 @@ main {
     margin: 0 auto;
 }
 
+.modal-body h2 { margin-top: 0 }
+
 /* modal button */
 .close-modal-btn-container {
     margin: 7px;
@@ -87,6 +89,11 @@ main {
 }
 .close-modal-btn:active {
     color: #9d4141;
+}
+.close-modal-btn:disabled {
+    color: #979797;
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 /* form */
